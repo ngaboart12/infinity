@@ -10,8 +10,8 @@ const WebMobile = () => {
   return (
     <div className='flex w-full items-center px-20 min-h-[100vh]'>
        <div className='flex flex-col mdl:flex-row items-center  max-w-5xl  gap-10 p-4 min-h-[70vh] bg-[#848484]/10 rounded-md '>
-          <div className='flex flex-col gap-2 mdl:w-[500px] '>
-            <span className='text-[36px] text-[#F59620] font-bold font-outfit' style={{lineHeight:1}}>Web & mobile app development</span>
+          <div className='flex flex-col gap-2 mdl:w-[500px] items-center mdl:items-start'>
+            <span className='text-[36px]  text-[#F59620] font-bold font-outfit' style={{lineHeight:1}}>Web & mobile app development</span>
             <span className='text-[16] text-black font-bold font-outfit'>Someone is aware of our business.</span>
 
             <span className='text-[16px] overflow-hidden text-[#56697A] font-outfit'> 

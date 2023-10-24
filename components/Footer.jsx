@@ -3,7 +3,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='grid grid-cols-2 justify-center px-20 gap-32 pb-20'>
+    <div className='grid grid-cols-2 mdl:grid-cols-4 justify-center px-20 gap-32 pb-20'>
       <div className='flex flex-col gap-2'>
         <Image
             src={`/image/logo2.png`}

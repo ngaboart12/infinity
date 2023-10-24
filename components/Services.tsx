@@ -24,11 +24,11 @@ const Services = () => {
             </div>
             <div className="z-10 flex gap-6 items-center justify-center min-h-[70vh] ">
                 <div className="flex flex-col-reverse mdl:flex-row items-center mdl:items-start gap-10 px-6">
-                    <div className="flex flex-col px-10 w-[80vh] ">
+                    <div className="flex flex-col items-center mdl:items-start px-10 w-[80vh] ">
                         <h1 className="text-[32px] text-[#56697A] font-semibold font-outfit">Our Services</h1>
                         <span className="text-[14px] max-w-[270px] text-[#606060] font-outfit">Explore our comprehensive range of services designed 
                         to meet your needs and exceed your expectations. F</span>
-                        <a href="#" className="flex z-2 py-2 max-w-[200px] font-outfit justify-center rounded-md text-white bg-[#F59620] mt-5">Discover More
+                        <a href="#" className="flex w-full mdl:max-w-none z-2 py-2 max-w-[200px] font-outfit justify-center rounded-md text-white bg-[#F59620] mt-5">Discover More
                         </a>
                     </div>
                     {/* our services */}

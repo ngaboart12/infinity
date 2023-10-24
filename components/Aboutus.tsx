@@ -15,22 +15,22 @@ const Aboutus = () => {
                 </div>
                 <div className='flex flex-col'>
                     <div className='flex'>
-                        <div className='flex flex-col min-w-[240px] max-w-[290px] items-start px-6 justify-center h-[100px] bg-[#5F7487]'>
+                        <div className='flex flex-col min-w-[300px] max-w-[290px] items-start px-6 justify-center h-[100px] bg-[#5F7487]'>
                             <span className='text-white w-20 font-outfit'>Successful Clients</span>
                             <span className='text-white font-bold text-[24px] font-outfit'>25</span>
                         </div>
-                        <div className='flex flex-col min-w-[240px] max-w-[290px] items-start px-6 justify-center h-[100px] bg-[#56697A]'>
+                        <div className='flex flex-col min-w-[300px] max-w-[290px] items-start px-6 justify-center h-[100px] bg-[#56697A]'>
                             <span className='text-white w-20 font-outfit'>Customer Reach</span>
                             <span className='text-white font-bold text-[24px] font-outift'>42</span>
                         </div>
                         
                     </div>
                     <div className='flex'>
-                        <div className='flex flex-col min-w-[240px] max-w-[290px] items-start px-6 justify-center h-[100px] '>
+                        <div className='flex flex-col min-w-[300px] max-w-[290px] items-start px-6 justify-center h-[100px] '>
                             <span className='text-white w-40 font-outfit'>Projects <br /> Worked So far</span>
                             <span className='text-white font-bold text-[24px] font-outfit'>25</span>
                         </div>
-                        <div className='flex flex-col min-w-[240px] max-w-[290px] items-start px-6 justify-center gap-2 h-[100px] bg-[#5F7487]'>
+                        <div className='flex flex-col min-w-[300px] max-w-[290px] items-start px-6 justify-center gap-2 h-[100px] bg-[#5F7487]'>
                             <span className='text-white w-20 font-outfit'>Companies</span>
                             <span className='text-white font-bold font-outfit text-[24px]'>42</span>
                         </div>
@@ -48,10 +48,10 @@ const Aboutus = () => {
 
         </div>
         {/* WHAT THEY SAY ABOUT US */}
-        <div className='flex flex-col  w-full px-20 py-32'>
-            <div className='flex flex-col min-h-[40vh] gap-6 items-center justify-center'>
+        <div className='flex flex-col mdl:flex-row mdl:gap-40  w-full px-20 py-8'>
+            <div className='flex flex-col min-h-[40vh] gap-6 items-center mdl:items-start justify-center'>
                 <Image src={`/image/pofile.png`} alt='profile' width={100} height={100} />
-                <div className='w-[600px]'>
+                <div className='w-[600px] mdl:w-[400px]'>
                     <span className='text-[#303030] font-outfit'>
                       Editor subtract rectangle auto project flatten content opacity 
                     hand horizontal. Effect pen draft subtract style background main
@@ -66,7 +66,7 @@ const Aboutus = () => {
                 </div>
 
             </div>
-            <div className='min-h-[60vh] grid grid-cols-2 mdl:grid-cols-3 gap-5 mt-40'>
+            <div className='min-h-[60vh] grid grid-cols-3 mdl:grid-cols-2 gap-5 mt-40'>
                 {/* start part */}
                 <div className='flex gap-4 h-[10vh] w-[200px]'>
                     <div>
