@@ -3,7 +3,7 @@ import { Aboutus, CaseStudies, ContactUs, Footer, Hero, Services, WebMobile } fr
 
 export default function Home() {
   return (
-    <main className='w-full'>
+    <main className='w-full mx-auto max-w-screen'>
           <Hero/>
           <Services/>
           <WebMobile/>

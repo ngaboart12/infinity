@@ -29,26 +29,26 @@ const CaseStudies = () => {
         },
     ]
   return (
-    <div className=' flex justify-center py-5 w-full h-[100vh]'>
+    <div className=' flex justify-center py-5 w-full min-h-[100vh]'>
         <div className=' flex flex-col items-center gap-6'>
-            <div><a href="#" className=' py-2 px-2 bg-[#FBECD8] text-[#F59620] rounded-sm'>Case studies</a></div>
-             <h1 className='text-[36px] w-[620px] text-center font-bold' style={{lineHeight:1}}>We develop products that address issues faced by customers.</h1>
+            <div><a href="#" className=' py-2 px-2 bg-[#FBECD8] text-[#F59620] rounded-sm font-outfit'>Case studies</a></div>
+             <h1 className='text-[36px] max-w-[620px] text-center font-bold font-outfit' style={{lineHeight:1}}>We develop products that address issues faced by customers.</h1>
 
-             <div className='flex gap-20 '>
+             <div className='grid grid-cols-1 sm:grid-cols-2 mdl:grid-cols-3 md:gap-10 items-center '>
             {casestudies.map((item)=>(
-                <div key={item.id} className='flex flex-col gap-20'>
+                <div key={item.id} className='flex max-w-[40vh] flex-col gap-20'>
                     <div className='h-[40vh]'>
                          <div className=' absolute p-2 rounded-md mt-4 ml-[22vh] bg-[#FBECD8] text-[#F59620]'>
-                            <span>{item.date}</span>
+                            <span className='font-outfit'>{item.date}</span>
                         </div>
                         <Image src={item.image} alt='imag1' width={270} height={400} />
                        
                     </div>
                     <div className='flex flex-col'>
-                        <span className='text-[#56697A] text-[12px]'>CLIENT: <span className='text-black'>{item.client}</span></span>
-                        <span className='text-[24px] font-bold'>{item.name}</span>
-                        <span className='text-[#56697A] text-[14px]'>{item.type}</span>
-                        <span><a href="#">{`->`}</a></span>
+                        <span className='text-[#56697A] text-[12px] font-outfit'>CLIENT: <span className='text-black'>{item.client}</span></span>
+                        <span className='text-[24px] font-bold font-outfit'>{item.name}</span>
+                        <span className='text-[#56697A] text-[14px] font-outfit'>{item.type}</span>
+                        <a href="#"><Image  src={`/image/arrow.png`} alt="sss" width={20}  height={30}/></a>
 
                     </div>
 
