@@ -10,7 +10,7 @@ const Navbar = () => {
         
         />
         </a>
-        <div className="links text-white text-sm flex gap-10 font-light items-center">
+        <div className="links text-white text-sm flex gap-10 font-light items-center font-outfit">
             <a href="#" className="hover:text-[#F59620]">Home</a>
             <a href="/aboutus" className="hover:text-[#F59620]">About us</a>
             <a href="#" className="hover:text-[#F59620]">Services</a>

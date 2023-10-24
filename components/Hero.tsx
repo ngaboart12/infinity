@@ -12,8 +12,8 @@ const Hero = () => {
     <div className='h-[100vh] w-full flex flex-col gap-10' style={divStyle}>
       <Navbar/>
       <div className='flex flex-col items-center py-20'>
-            <h1 className='text-5xl font-bold text-[#F59620]  text-center w-1/3'>Unlock the Power of Technology"</h1>
-            <span className='text-white text-sm font-extralight text-center'>Innovate  , Navigate,  Elevate</span>
+            <h1 className='text-5xl font-bold text-[#F59620]  text-center w-1/3 font-outfit'>Unlock the Power of Technology"</h1>
+            <span className='text-white text-sm font-extralight text-center font-outfit'>Innovate  , Navigate,  Elevate</span>
             <div className=' flex py-10 gap-4'>
             <a href="#" 
             className=" px-6 py-2 border border-[#F59620] text-[#F59620]
