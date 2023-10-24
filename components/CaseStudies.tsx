@@ -34,11 +34,11 @@ const CaseStudies = () => {
             <div><a href="#" className=' py-2 px-2 bg-[#FBECD8] text-[#F59620] rounded-sm font-outfit'>Case studies</a></div>
              <h1 className='text-[36px] max-w-[620px] text-center font-bold font-outfit' style={{lineHeight:1}}>We develop products that address issues faced by customers.</h1>
 
-             <div className='grid grid-cols-1 sm:grid-cols-2 mdl:grid-cols-3 md:gap-10 items-center '>
+             <div className='grid grid-cols-1 sm:grid-cols-2 mdl:grid-cols-3 gap-5 md:gap-10 items-center '>
             {casestudies.map((item)=>(
-                <div key={item.id} className='flex max-w-[40vh] flex-col gap-20'>
+                <div key={item.id} className='relative flex max-w-[40vh] flex-col gap-20'>
                     <div className='h-[40vh]'>
-                         <div className=' absolute p-2 rounded-md mt-4 ml-[22vh] bg-[#FBECD8] text-[#F59620]'>
+                         <div className=' absolute p-2 rounded-md mt-4  right-2 bg-[#FBECD8] text-[#F59620]'>
                             <span className='font-outfit'>{item.date}</span>
                         </div>
                         <Image src={item.image} alt='imag1' width={270} height={400} />

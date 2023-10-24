@@ -2,7 +2,7 @@ import React from 'react'
 
 const Form = () => {
   return (
-    <div className='w-1/2 flex flex-col gap-4'>
+    <div className='w-[90%] flex flex-col gap-4'>
      
         <div className='h-[8vh] bg-[#63798D] rounded-lg px-4'>
             <input type="text" placeholder='Name' className='w-full h-full bg-transparent outline-none text-white' />
