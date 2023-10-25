@@ -9,7 +9,7 @@ const Hero = () => {
         backgroundPosition: 'center',
       };
   return (
-    <div className='h-[100vh] w-full flex flex-col gap-10' style={divStyle}>
+    <div className='max-h-[100vh] w-full flex flex-col gap-10' style={divStyle}>
       <Navbar/>
       <div className='flex flex-col items-center py-20'>
             <h1 className='text-3xl sm:text-5xl font-bold text-[#F59620]  text-center w-[300px] sm:w-[400px] font-outfit'>Unlock the Power of Technology"</h1>
@@ -26,7 +26,7 @@ const Hero = () => {
                 Our Work
             </a>
             </div>
-            <div className='pt-20'>
+            <div className='pt-[15vh]'>
             <a href="#service" className='text-center text-white'>Scroll down</a>
             </div>
       </div>

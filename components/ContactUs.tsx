@@ -6,7 +6,7 @@ import Form from './Form'
 const ContactUs = () => {
 
   return (
-    <div className=' relative  min-h-[100vh] pb-8  py-10 ' >
+    <div className=' relative  max-h-[150vh] ' >
       <div className='w-full flex bg-[#56697A]' style={{backgroundImage: `url('../image/contactus.png')`,backgroundRepeat:'no-repeat',backgroundSize:'cover'}}>
 
         <div className='flex flex-col w-full py-40 md:p-10 gap-10  bg-transparent  items-center justify-center'>

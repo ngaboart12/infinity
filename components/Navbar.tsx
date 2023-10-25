@@ -1,7 +1,7 @@
 import Image from "next/image"
 const Navbar = () => {
   return (
-    <div className="py-5 px-6 sm:px-10 md:px-20 flex justify-between">
+    <div className="py-5 px-6 sm:px-10 md:px-20 w-full flex justify-between">
         <a href=""><Image
             src={`/image/logo.png`}
             alt="logo"

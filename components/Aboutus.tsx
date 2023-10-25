@@ -3,10 +3,10 @@ import React from 'react'
 
 const Aboutus = () => {
   return (
-    <div className='relative  w-full py-10 flex flex-col'>
-        <div className='flex w-full min-h-[60vh] lg:h-[60vh]  bg-[#56697A] overflow-hidden'>
-            <div className='flex items-center lg:items-start flex-col lg:flex-row z-20 absolute px-[10vh] py-[6vh] lg:py-[16vh] w-full gap-10'>
-                <div className=' flex flex-col min-w-[240px] max-w-[400px] lg:w-1/3 items-center lg:items-start gap-4'>
+    <div className='relative  w-full pt-10 flex flex-col'>
+        <div className='relative flex w-full max-h-[100vh]  bg-[#56697A] overflow-hidden'>
+            <div className='flex items-center lg:items-start flex-col lg:flex-row z-20  px-[10vh]  py-[6vh] lg:py-[6vh] w-full gap-10'>
+                <div className=' flex flex-col  max-w-[400px] lg:w-1/3 items-center lg:items-start gap-4'>
                     <span className='text-[24px] md:text-[32px] font-bold text-[#F59620] font-outfit text-center md:text-start lg:items-start' style={{lineHeight:1}}>We assist businesses in telling successful tales.</span>
                     <span className='text-white text-[16px] font-outfit text-center md:text-start lg:items-start'>Providing exceptional bespoke software solutions to 
                         startups, small companies, medium enterprises, and major
@@ -42,18 +42,22 @@ const Aboutus = () => {
                 </div>
 
             </div>
-            <div className=' mt-[42vh] lg:mt-[32vh] ml-auto relative w-60 h-60 '>
-                <Image src={`/image/aboutus.svg`} alt='aboutus' objectFit='contain' layout='fill'/>
-            </div>
+            <img
+                src="/image/aboutus.svg"
+                  alt="Your Image"
+                   style={{ position:'absolute',maxWidth: "15%",  bottom:0,right:0 }}
+                     />
 
         </div>
         {/* WHAT THEY SAY ABOUT US */}
-        <div className='flex flex-col gap-10 px-10 py-20'>
-        <span className='text-[24px] text-center text-[#F59620] font-[700] font-outfit'>WHAT THEY SAY ABOUT US</span>
-
-        <div className='flex flex-col mdl:flex-row mdl:gap-20 justify-center gap-20  w-full'>
         
-            <div className='flex flex-col min-h-[40vh] gap-6 items-center mdl:items-start justify-center'>
+
+        <div className='flex max-h-[200vh] flex-col mdl:flex-row '>
+            <div className='w-full mdl:w-1/2 flex bg-[#E5E5E5] justify-center py-20'>
+
+
+        
+            <div className='flex flex-col  max-h-[100vh] gap-6 items-center mdl:items-start justify-center'>
                 <Image src={`/image/pofile.png`} alt='profile' width={130} height={120} />
                 <div className='w-[300px] text-center md:text-start md:w-[400px]'>
                     <span className='text-[#303030] font-outfit'>
@@ -68,14 +72,24 @@ const Aboutus = () => {
                     <span className='text-[18px] font-semibold font-outfit'>Ishimwe Jean</span>
                     <span className='text-[16px] text-[#626262] font-outfit'>CEO TUZA</span>
                 </div>
+                <div className='flex w-full  '>
+                    <div className='ml-auto flex  gap-4'>
+
+                    <Image src={`/image/arrow-left.svg`}  alt='Arrow right' width={25} height={25} />
+                    <Image src={`/image/Arrow - Right .svg`}  alt='Arrow right' width={30} height={30} />
+                    </div>
+                </div>
 
             </div>
            
 
+        </div>
 
-            <div className='max-h-[30vh] grid grid-cols-2 md:grid-cols-2 gap-2 md:gap-10 gap-y-10 '>
+        <div className='w-full mdl:w-1/2  flex justify-center py-20'>
+
+            <div className=' grid grid-cols-2 md:grid-cols-2 gap-2 md:gap-8 gap-y-8 '>
                 {/* start part */}
-                <div className='flex gap-2 max-h-[10vh] max-w-[300px]'>
+                <div className='flex gap-2 max-h-[20vh] items-center max-w-[300px]'>
                     <div>
                         <Image src={`/image/profile2.png`} alt='profile 2' width={60} height={60}/>
                     </div>
@@ -86,7 +100,7 @@ const Aboutus = () => {
                     </div>
 
                 </div>
-                <div className='flex gap-4 h-[10vh] max-w-[300px]'>
+                <div className='flex gap-4 max-h-[20vh] items-center max-w-[300px]'>
                     <div>
                         <Image src={`/image/profile2.png`} alt='profile 2' width={60} height={60}/>
                     </div>
@@ -98,7 +112,7 @@ const Aboutus = () => {
 
                 </div>
                 
-                <div className='flex gap-4 h-[10vh] max-w-[300px]'>
+                <div className='flex gap-4 max-h-[20vh] items-center max-w-[300px]'>
                     <div>
                         <Image src={`/image/profile2.png`} alt='profile 2' width={60} height={60}/>
                     </div>
@@ -109,7 +123,7 @@ const Aboutus = () => {
                     </div>
 
                 </div>
-                <div className='flex gap-4 h-[10vh] max-w-[300px]'>
+                <div className='flex gap-4 max-h-[20vh] items-center max-w-[300px]'>
                     <div>
                         <Image src={`/image/profile2.png`} alt='profile 2' width={60} height={60}/>
                     </div>
@@ -120,7 +134,7 @@ const Aboutus = () => {
                     </div>
 
                 </div>
-                <div className='flex gap-4 h-[10vh] max-w-[300px]'>
+                <div className='flex gap-4 max-h-[20vh] items-center max-w-[300px]'>
                     <div>
                         <Image src={`/image/profile2.png`} alt='profile 2' width={60} height={60}/>
                     </div>
@@ -131,7 +145,7 @@ const Aboutus = () => {
                     </div>
 
                 </div>
-                <div className='flex gap-4 h-[10vh] max-w-[300px]'>
+                <div className='flex gap-4 max-h-[20vh] items-center max-w-[300px]'>
                     <div>
                         <Image src={`/image/profile2.png`} alt='profile 2' width={60} height={60}/>
                     </div>
@@ -141,6 +155,7 @@ const Aboutus = () => {
 
                     </div>
 
+        </div>
                 </div>
 {/* endding part */}
             </div>
@@ -149,7 +164,6 @@ const Aboutus = () => {
      
         </div>
       
-    </div>
   )
 }
 

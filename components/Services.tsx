@@ -11,8 +11,8 @@ const Services = () => {
         { id: 6, name: 'Graphic design', image: '/image/graphic.svg',disc:'Subtract scrolling polygon reesizing clip undo undo pixel sta' }
       ];
   return (
-    <div className='px-2 pt-20 sm:px-10  min-h-[100vh] items-center justify-center' id="service">
-        <div className='relative flex w-full min-h-[70vh] pb-10 pt-4 bg-[#848484]/20 rounded-md overflow-hidden'>
+    <div className='px-2 pt-20 sm:px-10  max-h-[140vh] items-center justify-center' id="service">
+        <div className='relative flex w-full max-h-[140vh] pb-10 pt-4 bg-[#848484]/20 rounded-md overflow-hidden'>
             <div className="absolute z-1">
                 <Image 
                    src={`/image/service.svg`}
@@ -22,9 +22,9 @@ const Services = () => {
                 
                 />
             </div>
-            <div className=" relative z-10 w-full flex gap-6 items-center justify-center min-h-[70vh] pb-4">
+            <div className=" relative z-10 w-full flex gap-6 items-center justify-center max-h-[150vh]  pb-4">
                 <div className="flex flex-col mdl:flex-row items-center mdl:items-start gap-10 px-6">
-                    <div className="flex flex-col items-center mdl:items-start px-10 w-[80vh] ">
+                    <div className="flex flex-col items-center mdl:items-start px-10  ">
                         <h1 className="text-[32px] text-[#56697A] font-semibold font-outfit">Our Services</h1>
                         <span className="text-[14px] max-w-[270px] text-[#606060] font-outfit text-center mdl:text-start">Explore our comprehensive range of services designed 
                         to meet your needs and exceed your expectations. F</span>
