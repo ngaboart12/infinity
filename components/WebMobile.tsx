@@ -8,13 +8,13 @@ const WebMobile = () => {
     backgroundPosition: 'center',
   };
   return (
-    <div className='flex pt-20 sm:pt-0 w-full items-center justify-center px-20 min-h-[100vh]'>
-       <div className='flex flex-col mdl:flex-row items-center  max-w-5xl  gap-10 p-4 min-h-[70vh] bg-[#848484]/10 rounded-md '>
+    <div className='relative flex pt-20 px-20 sm:px-60 sm:pt-0 w-full items-center justify-center  min-h-[100vh]'>
+       <div className='relative flex flex-col mdl:flex-row items-center  gap-10 p-4 min-h-[70vh] bg-[#848484]/10 rounded-md '>
           <div className='flex flex-col gap-2 mdl:w-[500px] items-center mdl:items-start'>
             <span className='text-[36px]  text-[#F59620]  font-bold font-outfit text-center mdl:text-start' style={{lineHeight:1}}>Web & mobile app development</span>
             <span className='text-[16] text-black font-bold font-outfit'>Someone is aware of our business.</span>
 
-            <span className='text-[16px] w-[280px] sm:min-w-[280px] text-center overflow-hidden text-[#56697A] font-outfit'> 
+            <span className='text-[16px] w-[280px] sm:min-w-[280px] text-center md:text-start overflow-hidden text-[#56697A] font-outfit'> 
               Our mobile application development services provide the proper 
               solutions and resources to assist organizations in creating high-quality,
                user-friendly, and engaging mobile apps. Our skilled app developers 
