@@ -3,11 +3,13 @@ import { Aboutus, CaseStudies, ContactUs, Footer, Hero, Services, WebMobile } fr
 
 export default function Home() {
   return (
-    <main className=' relative   mx-auto '>
+    <main className=' container mx-auto overflow-x-hidden '>
           <Hero/>
           <Services/>
           <WebMobile/>
           <CaseStudies/>
+        
+       
          
     </main>
   )
