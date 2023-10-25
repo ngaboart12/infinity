@@ -28,8 +28,8 @@ const WebMobile = () => {
 
           </div>
           <div className='flex  h-full w-[60%] items-center justify-center  mt-10'>
-            <div className='h-[280px] w-[280px] mdl:h-[380px] mdl:w-[380px]  rounded' style={divStyle}>
-            <div className='flex relative w-[200px] h-[30vh]  mdl:h-[240px] mdl:w-[40vh] mdl:ml-40  mt-[25%] mdl:mt-[38%] ml-40 border-[10px] border-white ' >
+            <div className='h-[380px] w-[380px] mdl:h-[380px] mdl:w-[380px]  rounded' style={divStyle}>
+            <div className=' relative hidden sm:flex w-[200px] h-[30vh]  mdl:h-[240px] mdl:w-[40vh] mdl:ml-40  mt-[25%] mdl:mt-[38%] ml-40 border-[10px] border-white ' >
             <Image src={`/image/webapp1.png`} alt='' layout='fill' priority />
             </div>
             </div>
