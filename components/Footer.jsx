@@ -3,11 +3,12 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='w-full justify-center'>
+    <div className='w-full flex justify-center items-center px-4'>
+    
+    <div className=' grid grid-cols-2 mdl:grid-cols-4 justify-center  gap-12 pb-20'>
 
-    <div className='grid grid-cols-2 mdl:grid-cols-4 justify-center px-20 gap-32 pb-20'>
-      <div className='flex flex-col gap-2'>
-      <div className='flex flex-col items-center w-full justify-center '>
+      <div className='flex flex-col gap-2  w-full'>
+      <div className='flex flex-col gap-4 '>
         <Image
             src={`/image/logo2.png`}
             alt="logo"
@@ -21,20 +22,20 @@ const Footer = () => {
             width={20}
             height={20}
             
-            />  <span  className='text-[18px] text-[#56697A] font-semibold font-outfit'>Kk 678 st Kanombe Kicukiro</span></span>
+            />  <span  className='text-[14px] sm:text-[18px] text-[#56697A] font-semibold font-outfit'>Kk 678 st Kanombe Kicukiro</span></span>
         <span className='flex gap-2 items-center'> <Image
             src={`/image/Time.png`}
             alt="logo"
             width={20}
             height={20}
             
-            />  <span className='text-[18px] text-[#56697A] font-semibold font-outfit'>Open 9 AM To 17 PM</span></span>
+            />  <span className='text-[14px] sm:text-[18px] text-[#56697A] font-semibold font-outfit'>Open 9 AM To 17 PM</span></span>
             </div>
 
       </div>
       {/* company */}
       <div className='flex flex-col gap-2'>
-        <div className='flex flex-col items-center w-full justify-center '>
+        <div className='flex flex-col  '>
 
         <h1 className='text-[#56697A] font-bold text-[18px] items-start font-outfit'>Company</h1>
         <ul className='flex flex-col gap-2 text-[#56697A] font-outfit'>
@@ -47,7 +48,7 @@ const Footer = () => {
       </div>
       {/* services */}
       <div className='flex flex-col gap-2'>
-      <div className='flex flex-col items-center w-full justify-center '>
+      <div className='flex flex-col '>
        
         <h1 className='text-[#56697A] font-bold text-[18px] items-start  font-outfit'>Services</h1>
 
@@ -64,7 +65,7 @@ const Footer = () => {
       </div>
       {/* technologies */}
       <div className='flex flex-col gap-2'>
-      <div className='flex flex-col items-center w-full justify-center '>
+      <div className='flex flex-col    '>
         <h1 className='text-[#56697A] font-bold text-[18px] font-outfit'>Technologies</h1>
         <ul className='flex flex-col gap-2 text-[#56697A] font-outfit'>
             <a href="#">React js</a>
