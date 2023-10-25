@@ -14,7 +14,7 @@ const WebMobile = () => {
             <span className='text-[36px]  text-[#F59620]  font-bold font-outfit text-center mdl:text-start' style={{lineHeight:1}}>Web & mobile app development</span>
             <span className='text-[16] text-black font-bold font-outfit'>Someone is aware of our business.</span>
 
-            <span className='text-[16px] text-center overflow-hidden text-[#56697A] font-outfit'> 
+            <span className='text-[16px] w-[280px] sm:min-w-[280px] text-center overflow-hidden text-[#56697A] font-outfit'> 
               Our mobile application development services provide the proper 
               solutions and resources to assist organizations in creating high-quality,
                user-friendly, and engaging mobile apps. Our skilled app developers 
