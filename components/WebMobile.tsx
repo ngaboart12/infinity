@@ -11,12 +11,12 @@ const WebMobile = () => {
     <div className='px-4 sm:px-10 md:px-20 py-20'>
      
 
-       <div className='relative flex w-full flex-col mdl:flex-row items-center justify-center   gap-10 p-4 min-h-[70vh] bg-[#848484]/20 rounded-md '>
+       <div className='relative flex w-full flex-col mdl:flex-row items-center justify-center   gap-10 p-4 min-h-[70vh] bg-[#848484]/10 rounded-md '>
           <div className='flex flex-col gap-2 mdl:w-[500px] items-center mdl:items-start'>
             <span className='text-[36px]  text-[#F59620]  font-bold font-outfit text-center mdl:text-start' style={{lineHeight:1}}>Web & mobile app development</span>
             <span className='text-[16] text-black font-bold font-outfit'>Someone is aware of our business.</span>
 
-            <span className='text-[16px] w-[280px] sm:min-w-[280px] text-center md:text-start overflow-hidden text-[#56697A] font-outfit'> 
+            <span className='text-[16px] w-[280px] sm:w-[380px] text-center md:text-start overflow-hidden text-[#56697A] font-outfit'> 
               Our mobile application development services provide the proper 
               solutions and resources to assist organizations in creating high-quality,
                user-friendly, and engaging mobile apps. Our skilled app developers 
@@ -29,7 +29,7 @@ const WebMobile = () => {
             <a href="#" className='flex py-4 items-center justify-center text-white rou bg-[#F59620] w-[200px]'> Learn More {`->`}</a>
 
           </div>
-          <div className='flex  h-full w-[60%] items-center justify-center  mt-10'>
+          <div className='flex  h-full max-w-[300px] items-center justify-center  mt-10'>
             <div className='h-[300px] w-[380px] mdl:h-[380px] mdl:w-[380px]  rounded' style={divStyle}>
             <div className=' relative hidden sm:flex w-[200px] h-[30vh]  mdl:h-[240px] mdl:w-[40vh] mdl:ml-40  mt-[25%] mdl:mt-[38%] ml-40 border-[10px] border-white ' >
             <Image src={`/image/webapp1.png`} alt='' layout='fill' priority />

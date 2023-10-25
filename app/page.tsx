@@ -8,6 +8,8 @@ export default function Home() {
           <Services/>
           <WebMobile/>
           <CaseStudies/>
+          <Aboutus />
+          <ContactUs/>
         
        
          
