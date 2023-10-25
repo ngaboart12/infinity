@@ -21,12 +21,12 @@ const ContactUs = () => {
                     or just want to say hello? Please contact us at:-</span>
                 </div>
                     <div className='flex gap-2 justify-center '>
-                    <Image src={`/image/call.svg`} alt='' width={20} height={20} />
+                    <Image src={`/image/Call.svg`} alt='' width={20} height={20} />
                     <span className='text-[16px] md:text-[18px] text-white'>If you have an urgent business concern, please contact us at +25078**456</span>
 
                  </div>
                  <div className='flex gap-2'>
-                    <Image src={`/image/notification.svg`} alt='' width={20} height={20} />
+                    <Image src={`/image/Notification.svg`} alt='' width={20} height={20} />
                     <span className='text-[16px] md:text-[18px] text-white'>If you have an urgent business concern, please contact us at +25078**456</span>
 
                  </div>

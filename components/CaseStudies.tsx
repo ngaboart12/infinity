@@ -29,7 +29,7 @@ const CaseStudies = () => {
         },
     ]
   return (
-    <div className=' flex justify-center py-20 w-full max-h-[160vh]'>
+    <div className=' flex justify-center py-10 w-full max-h-[260vh]'>
         <div className=' flex flex-col items-center gap-6'>
             <div><a href="#" className=' py-2 px-2 bg-[#FBECD8] text-[#F59620] rounded-sm font-outfit'>Case studies</a></div>
              <h1 className='text-[24px] sm:text-[36px] w-[300px] sm:w-[620px] text-center font-bold font-outfit' style={{lineHeight:1}}>We develop products that address issues faced by customers.</h1>

@@ -72,8 +72,8 @@ const Aboutus = () => {
                     <span className='text-[18px] font-semibold font-outfit'>Ishimwe Jean</span>
                     <span className='text-[16px] text-[#626262] font-outfit'>CEO TUZA</span>
                 </div>
-                <div className='flex w-full  '>
-                    <div className='ml-auto flex  gap-4'>
+                <div className='flex w-full py-10 '>
+                    <div className='mx-auto  mdl:mx-0 mdl:ml-auto flex  gap-4'>
 
                     <Image src={`/image/arrow-left.svg`}  alt='Arrow right' width={25} height={25} />
                     <Image src={`/image/Arrow - Right .svg`}  alt='Arrow right' width={30} height={30} />

@@ -24,7 +24,7 @@ const Footer = () => {
             
             />  <span  className='text-[14px] sm:text-[18px] text-[#56697A] font-semibold font-outfit'>Kk 678 st Kanombe Kicukiro</span></span>
         <span className='flex gap-2 items-center'> <Image
-            src={`/image/Time.png`}
+            src={`/image/time.png`}
             alt="logo"
             width={20}
             height={20}
