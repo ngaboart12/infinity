@@ -9,12 +9,12 @@ const Hero = () => {
         backgroundPosition: 'center',
       };
   return (
-    <div className='max-h-[100vh] w-full flex flex-col gap-10' style={divStyle}>
+    <div className='max-h-[100vh] pb-8 w-full flex flex-col gap-10' style={divStyle}>
       <Navbar/>
-      <div className='flex flex-col items-center py-20'>
-            <h1 className='text-3xl sm:text-5xl font-bold text-[#F59620]  text-center w-[300px] sm:w-[400px] font-outfit'>Unlock the Power of Technology"</h1>
+      <div className='flex flex-col gap-[26px] items-center py-10'>
+            <h1 className='text-3xl sm:text-5xl font-bold text-[#F59620]  text-center w-[300px] sm:w-[400px] font-outfit' style={{lineHeight:'normal'}}>Unlock the Power of Technology"</h1>
             <span className='text-white text-sm font-extralight text-center font-outfit'>Innovate  , Navigate,  Elevate</span>
-            <div className=' flex py-10 gap-4'>
+            <div className=' flex  gap-4'>
             <a href="#" 
             className=" px-6 py-2 border border-[#F59620] text-[#F59620]
              hover:text-white hover:bg-[#F59620]">

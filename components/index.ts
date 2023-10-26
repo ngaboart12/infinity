@@ -5,6 +5,7 @@ import CaseStudies from "./CaseStudies";
 import Aboutus from "./Aboutus";
 import ContactUs from "./ContactUs";
 import Footer from "./Footer"
+import WhatSay from "./WhatSay"
 
 export {
     Hero,
@@ -13,7 +14,10 @@ export {
     CaseStudies,
     Aboutus,
     ContactUs,
-    Footer
+    Footer,
+    WhatSay,
+ 
+    
     
     
     
