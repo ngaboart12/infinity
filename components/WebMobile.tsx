@@ -8,10 +8,10 @@ const WebMobile = () => {
     backgroundPosition: 'center',
   };
   return (
-    <div className='px-4  realtive w-full sm:px-10 md:px-10 py-20'>
+    <div className='  realtive max-w-[90%]  px-20 py-20'>
      
 
-       <div className='relative flex w-full flex-col mdl:flex-row items-center justify-between px-20   gap-10 p-4 max-h-[150vh]  rounded-md '>
+       <div className='relative flex w-full flex-col mdl:flex-row items-center justify-between    gap-10 p-4 max-h-[150vh]  rounded-md '>
           <div className='flex flex-col gap-2 mdl:w-[500px] items-center mdl:items-start'>
             <span className='text-[36px]  text-[#F59620]  font-bold font-outfit text-center mdl:text-start' style={{lineHeight:1}}>Web & mobile app development</span>
             <span className='text-[16] text-black font-bold font-outfit'>Someone is aware of our business.</span>
