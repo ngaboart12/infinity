@@ -11,8 +11,8 @@ const Services = () => {
         { id: 6, name: 'Graphic design', image: '/image/graphic.svg',disc:'Subtract scrolling polygon reesizing clip undo undo pixel sta' }
       ];
   return (
-    <div className='px-2 pt-20 sm:px-10  max-h-[140vh] items-center justify-center' id="service">
-        <div className='relative flex w-full max-h-[140vh] pb-10 pt-4 bg-[#848484]/20 rounded-md overflow-hidden'>
+    <div className='px-2 pt-20 sm:px-10  max-h-[160vh] items-center justify-center' id="service">
+        <div className='relative flex w-full max-h-[160vh] pb-10 pt-4 bg-[#848484]/20 rounded-md overflow-hidden'>
             <div className="absolute z-1">
                 <Image 
                    src={`/image/service.svg`}

@@ -7,12 +7,12 @@ const ContactUs = () => {
 
   return (
     <div className=' relative  max-h-[150vh] ' >
-      <div className='w-full flex bg-[#56697A]' style={{backgroundImage: `url('../image/contactus.png')`,backgroundRepeat:'no-repeat',backgroundSize:'cover'}}>
+      <div className='w-full flex bg-[#56697A] justify-center' style={{backgroundImage: `url('../image/contactus.png')`,backgroundRepeat:'no-repeat',backgroundSize:'cover'}}>
 
-        <div className='flex flex-col w-full py-40 md:p-10 gap-10  bg-transparent  items-center justify-center'>
+        <div className='flex  flex-col w-full py-40 md:p-10 gap-10  bg-transparent  items-center justify-center'>
          <h1 className='text-[#F59620] text-[32px] font-bold font-outfit '>Get In Touch With us</h1>
-         <div className='flex flex-col lg:flex-row w-full justify-center items-center gap-10'>
-            <div className='flex flex-col w-[80%]  h-full  gap-4'>
+         <div className='flex flex-col  lg:flex-row  justify-center items-center gap-10'>
+            <div className='flex flex-col  w-[80%]  h-full  gap-4'>
                
                 <div className='flex gap-2'>
                    
