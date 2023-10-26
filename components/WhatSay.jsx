@@ -6,7 +6,7 @@ function WhatSay() {
     <div className='max-w-screen-xl mx-auto flex max-h-[200vh] justify-center w-full flex-col mdl:flex-row '>
             
 
-    <div className='w-full mdl:max-w-1/2 flex bg-[#E5E5E5] justify-center py-20'>
+    <div className='w-full mdl:max-w-1/2 flex bg-[#E5E5E5] justify-center py-[105px]'>
         
 
 
@@ -39,9 +39,10 @@ function WhatSay() {
 
 </div>
 
-<div className='w-full mdl:max-w-1/2  flex justify-center py-20'>
+<div className='w-full mdl:max-w-1/2  flex-col justify-center px-20 py-[70px]'>
+    <h1 className=' font-outfit text-[24px] text-[#F59620] font-bold'>WHAT THEY SAY ABOUT US</h1>
 
-    <div className=' grid grid-cols-2 md:grid-cols-2 gap-2 md:gap-8 gap-y-8 '>
+    <div className=' grid grid-cols-2 md:grid-cols-2   gap-y-20 py-10 '>
         {/* start part */}
         <div className='flex gap-2 max-h-[20vh] items-center max-w-[300px]'>
             <div>
