@@ -41,7 +41,7 @@ const CaseStudies = () => {
                          <div className=' absolute p-2 rounded-md mt-4  right-2 bg-[#FBECD8] text-[#F59620]'>
                             <span className='font-outfit'>{item.date}</span>
                         </div>
-                        <Image src={item.image} alt='imag1' width={300} height={400} />
+                        <Image src={item.image} alt='imag1' width={260} height={0} />
                        
                     </div>
                     <div className='flex flex-col'>

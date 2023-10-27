@@ -3,7 +3,7 @@ import React from 'react'
 
 function WhatSay() {
   return (
-    <div className='max-w-screen-xl mx-auto flex max-h-[200vh] justify-center w-full flex-col mdl:flex-row '>
+    <div className='max-w-screen-2xl mx-auto flex max-h-[200vh] justify-center w-full flex-col mdl:flex-row '>
             
 
     <div className='w-full mdl:max-w-1/2 flex bg-[#E5E5E5] justify-center py-[105px]'>
