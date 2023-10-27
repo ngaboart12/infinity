@@ -29,11 +29,11 @@ const WebMobile = () => {
           <div className='flex  h-full max-w-[400px] items-center justify-center  mt-10'>
             <div className='relative h-[300px] w-[300px] mdl:h-[380px] mdl:w-[480px]  rounded' style={divStyle}>
               <a href="#" className=' absolute right-[-30px] top-[-30px] flex gap-4 py-[26px] px-[27px] bg-[#FFECD5] text-[#F59620]'>
-                <Image src={`/image/Path.svg`} alt='path' width={18} height={30} />
+                <Image src={`/image/path.svg`} alt='path' width={18} height={30} />
                 UI & UX Desin
                 </a>
               <a href="#" className=' absolute left-[-60px] bottom-0 flex gap-4 py-[26px] px-[27px] bg-[#FFECD5] text-[#F59620]'>
-                <Image src={`/image/Path.svg`} alt='path' width={18} height={30} />
+                <Image src={`/image/path.svg`} alt='path' width={18} height={30} />
                 UI & UX Desin
                 </a>
 
