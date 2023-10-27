@@ -3,15 +3,15 @@ import React from 'react'
 
 function WhatSay() {
   return (
-    <div className=' flex max-h-[200vh] justify-center w-full flex-col mdl:flex-row '>
+    <div className=' flex max-h-[200vh]  w-full flex-col mdl:flex-row '>
             
 
-    <div className='w-full mdl:max-w-1/2 flex bg-[#E5E5E5] justify-center py-[105px]'>
+    <div className='w-full mdl:max-w-1/2 flex bg-[#E5E5E5] py-[105px]'>
         
 
 
 
-    <div className='flex flex-col  max-h-[100vh] gap-6 items-center mdl:items-start justify-center'>
+    <div className='max-w-lg mx-auto flex flex-col  max-h-[100vh] gap-6 items-center mdl:items-start justify-end'>
         <Image src={`/image/pofile.png`} alt='profile' width={130} height={120} />
         <div className='w-[300px] text-center md:text-start md:w-[400px]'>
             <span className='text-[#303030] font-outfit'>
@@ -46,7 +46,7 @@ function WhatSay() {
         {/* start part */}
         <div className='flex gap-2 max-h-[20vh] items-center max-w-[300px]'>
             <div>
-                <Image src={`/image/profile2.png`} alt='profile 2' width={60} height={60}/>
+                <Image src={`/image/profile2.png`} alt='profile 2' width={60} height={100}/>
             </div>
             <div className='flex flex-col justify-evenly py-2'>
                     <span className='text-[16px] font-semibold font-outfit'>Ishimwe Jean</span>
